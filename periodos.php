@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <title> Responsive Table</title>
+<meta charset="UTF-8">
+<title> Generador de períodos</title>
+<link rel="shortcut icon" href="img/logosena.png">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -18,8 +19,6 @@
   
   <?php
   error_reporting(0);
-  ?>
-  <?php
    
     
 	$dtz = new DateTimeZone("America/Bogota");
