@@ -35,7 +35,7 @@
     <h3>Etapa productiva</h3>
 		<hr>
 
-    <form action="PERIODOs.PHP" method="post">
+    <form action="periodos.PHP" method="post">
        <div  style="margin-left:350px" class="col-md-4">
        <div class="input-group mb-3 form-floating">
        <span class="input-group-text">Fecha de Inicial</span>
