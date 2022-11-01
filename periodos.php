@@ -69,7 +69,7 @@
   <div class="container">
     <div class="row ">
     <div class="col">
-      <a href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit?usp=sharing">¿Dónde debo ubicar los períodos generados?</a>
+      <a href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit?usp=sharing" Target="_blank">¿Dónde debo ubicar los períodos generados?</a>
     </div>
     </div>
   </div>
