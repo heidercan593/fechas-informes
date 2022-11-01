@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-<meta charset="UTF-8">
-<title> Generador de períodos</title>
-<link rel="shortcut icon" href="img/logosena.png">
+  <meta charset="UTF-8">
+  <title> Responsive Table</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style2.css">
+
 <!-- bootstrap -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,6 +20,8 @@
   
   <?php
   error_reporting(0);
+  ?>
+  <?php
    
     
 	$dtz = new DateTimeZone("America/Bogota");
@@ -49,13 +52,13 @@
 <form class="text-center" action="periodos.php" method="post">
 <div class="container">
   <div class="row row-cols-auto">
-    
-    <div class="col-6" style="width: 30%;">      
-       <span class="input-group-text" style="color: #3ba241;background-color: #34495e;">Digite la fecha de Inicio Etapa Productiva</span>
+    <div class="col-6" style="width: auto;">      
+       <span class="input-group-text" style="color: #3ba241;background-color: #34495e;">Ingrese fecha Inicio de Etapa Productiva</span>
        <input type="date" id="inicio" name="inicio" class="form-control" required><br>
       </div>
-    <div class="col-6"style="width: 30%;">      
-      <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Digite la fecha final Etapa Productiva</span>
+      <br>
+    <div class="col-6"style="width: auto;">      
+      <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
        <input type="date" id="final" name="final" class="form-control" required ><br>
     </div>
     <div>
@@ -74,12 +77,12 @@
   </div>
     <br>
     <!-- Fecha de informe concertacion-->
-    <div class="container">
+    <div class="container" >
     <div class="row ">
     <div class="col">
     <h4 >Período informe concertación  </h4> 
     <small>(F023-01)</small>
-    <table class="rwd-table" >
+    <table class="rwd-table2" >
       <thead>
         <tr> 
         <th class="text-center">FECHA INICIAL</th>
@@ -96,7 +99,7 @@
     </div>
     <!-- Fecha de informe parcial -->
     <div class="col">
-    <table id="cesar2" class="rwd-table" >
+    <table id="cesar2" class="rwd-table2" >
     <h4>Período informe parcial</h4>
     <small>(F023-02)</small> 
   <thead>
@@ -116,7 +119,7 @@
     </div>
     <!-- Fecha de informe final -->
     <div class="col">
-    <table id="cesar2" class="rwd-table" >
+    <table id="cesar2" class="rwd-table2" >
     <h4>Período informe final</h4>
     <small>(F023-03)</small> 
   <thead>
