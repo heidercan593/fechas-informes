@@ -233,7 +233,7 @@
 </div>
 
 
-<p class="mt-5 mb-3 text-muted" style="text-align: center">&copy; Version 2.0</p>
+<p class="mt-5 mb-3 text-muted" style="text-align: center">&copy; Version 1.1</p>
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 </body>
