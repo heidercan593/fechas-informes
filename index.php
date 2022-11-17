@@ -46,7 +46,7 @@
        <input type="date" id="final" name="final" class="form-control" required ><br>
  
        <input type="submit" class="btn btn-outline-success" value="Generar" > 
-  <p class="mt-5 mb-3 text-muted">&copy; Version 2.0</p>
+  <p class="mt-5 mb-3 text-muted">&copy; Version 1.1</p>
 </form> 
   </body>
 </html>
