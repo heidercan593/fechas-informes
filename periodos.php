@@ -2,21 +2,19 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> Generador de períodos</title>
-    <link rel="shortcut icon" href="img/logosena.png">
-
+  <title>Generador de periodos</title>
+  <link rel="shortcut icon" href="assets/img/logosena.png">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="./style2.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 <!-- bootstrap -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
+<style>a{text-decoration:none}</style>
 </head>
 <body>
   
@@ -42,7 +40,7 @@
 ?>
 <!-- TITULO -->
 <div class="container">
-  <img src="img/logosena.png" class="rounded float-right" style="width: 130px" alt=""> 
+  <a href="index.php"> <img src="assets/img/logosena.png" class="rounded float-right" style="width: 130px" alt=""> </a>
 </div>
 <h1 class="text-center">SENA Centro Biotecnológico del Caribe</h1>
 <h4 class="text-center" style="color:rgb(59, 162, 65)">Seguimiento a Etapa Productiva</h4>
@@ -73,7 +71,7 @@
   <div class="container">
     <div class="row ">
     <div class="col">
-      <a href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit?usp=sharing" Target="_blank">¿Dónde debo ubicar los períodos generados?</a>
+      
     </div>
     </div>
   </div>
@@ -83,7 +81,7 @@
     <div class="row ">
     <div class="col">
     <h4 >Período informe concertación  </h4> 
-    <small>(F023-01)</small>
+    <small>(F023-01)</small> <a href="assets/Informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
     <table class="rwd-table2" >
       <thead>
         <tr> 
@@ -103,7 +101,7 @@
     <div class="col">
     <table id="cesar2" class="rwd-table2" >
     <h4>Período informe parcial</h4>
-    <small>(F023-02)</small> 
+    <small>(F023-02)</small> <a href="assets/Informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
   <thead>
       <tr>
           <th class="text-center">FECHA INICIAL</th>
@@ -119,11 +117,11 @@
   </tbody>
   </table>
     </div>
-    <!-- Fecha de informe final -->
+<!-- Fecha de informe final -->
     <div class="col">
     <table id="cesar2" class="rwd-table2" >
     <h4>Período informe final</h4>
-    <small>(F023-03)</small> 
+    <small>(F023-03)</small> <a href="assets/Informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
   <thead>
       <tr>
           <th class="text-center">FECHA INICIAL</th>
@@ -148,6 +146,11 @@
       <br>
 <h4>Período de bitácoras</h4>
 <small>(F147)</small> 
+<br>
+<a href="assets/Informes/GFPI-F-147_Bitácora_de_seguimiento_Etapa_productiva - V1.xlsx" download="GFPI-F-147_Bitácora_de_seguimiento_Etapa_productiva - V1.xlsx" > Descargar formato V1</a>
+<br>
+<a href="assets/Informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" > Descargar formato V2</a>
+<br>
   <thead>
       <tr>
           <th class="text-center">BITÁCORA</th>
@@ -189,6 +192,34 @@
   </tfoot>
   </table>
   </div>
+  <!-- sugerencias -->
+<div class="col">
+    <table id="cesar2" class="rwd-table3" >
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  <thead>
+      <tr>
+          <th class="text-center" style="font-size:19px">⚠️ DUDAS FRECUENTES ⚠️</th>                      
+      </tr>
+  </thead>
+  <tbody>
+          <tr>
+           <td class="text-center"><a class="link-light" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.nyaqketnv8w3" Target="_blank">¿Dónde debo ubicar los períodos generados?</a></td>             
+          </tr>
+          <tr>
+          <td class="text-center"><a class="link-light" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.4lb4ori4n86v" Target="_blank">¿Que versión de las bitacoras debo descargar?</a></td>
+          </tr>
+          <tr>
+           <td class="text-center"><a class="link-light"href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.pa4m68ud1x46" Target="_blank">¿Que nomenclatura debo usar para la entrega de las bitacoras?</a></td>
+          </tr>
+  </tbody>
+  </table>
+    </div>
+     <!-- sugerencias-->
   </div> 
 
   <!-- script -->
@@ -200,7 +231,9 @@
     </div>
   </div>
 </div>
- <p class="mt-5 mb-3 text-muted">&copy; Version 1.0</p>
+
+
+<p class="mt-5 mb-3 text-muted" style="text-align: center">&copy; Version 2.0</p>
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 </body>
