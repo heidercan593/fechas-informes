@@ -214,7 +214,7 @@
           <td class="text-center"><a class="link-light" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.4lb4ori4n86v" Target="_blank">¿Que versión de las bitacoras debo descargar?</a></td>
           </tr>
           <tr>
-           <td class="text-center"><a class="link-light"href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.pa4m68ud1x46" Target="_blank">¿Que nomenclatura debo usar para la entrega de las bitacoras?</a></td>
+           <td class="text-center"><a class="link-light"href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.pa4m68ud1x46" Target="_blank">¿Que nomenclatura debo usar para la entrega de las bitacoras e informes?</a></td>
           </tr>
   </tbody>
   </table>
