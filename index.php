@@ -36,18 +36,20 @@
     <link href="assets/css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-<form class="form-signin" action="periodos.php" method="post">
-<h1 class="text-center">Generar períodos de Informes</h1>
-  <img class="mb-4" src="assets/img/logosena.png" alt="" width="100" height="100">
-      <span class="input-group-text" style="color: #3ba241;background-color: #34495e; ">Ingrese fecha Inicio de Etapa Productiva</span>
-       <input type="date" id="inicio" name="inicio" class="form-control" required><br>
+    <form class="form-signin" action="periodos.php" method="post">
+      <h1 class="text-center">Generar períodos de Informes</h1>
+        <img class="mb-4" src="assets/img/logosena.png" alt="" width="100" height="100">
+            <span class="input-group-text" style="color: #3ba241;background-color: #34495e; ">Ingrese fecha Inicio de Etapa Productiva</span>
+            <input type="date" id="inicio" name="inicio" class="form-control" required><br>
 
-       <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
-       <input type="date" id="final" name="final" class="form-control" required ><br>
- 
-       <input type="submit" class="btn btn-outline-success" value="Generar" > 
-  <p class="mt-5 mb-3 text-muted">&copy; Version 1.1</p>
-</form> 
+            <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
+            <input type="date" id="final" name="final" class="form-control" required ><br>
+      
+            <input type="submit" class="btn btn-outline-success" value="Generar" > 
+
+            <p class="mt-5 mb-3 text-muted">&copy; Version 1.2</p>
+    </form> 
   </body>
 </html>
+
 
