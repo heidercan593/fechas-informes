@@ -240,5 +240,5 @@ h3 {
 	height: auto;  
 }
 
-
+.sombra:hover {filter: blur(5px);}
 
