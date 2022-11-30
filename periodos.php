@@ -214,7 +214,7 @@
                     </tbody>
                 </table>
                 <br><br>
-                <a href="presentacion.html" Target="_blank"> <img src="assets/img/como-diligenciar-informes.png" class="img-thumbnail" alt="" style="width: 475px;" ></a>
+                <a href="presentacion.html" Target="_blank"> <img src="assets/img/como-diligenciar-informes.png" class="sombra" alt="" style="width: 475px;" ></a>
             </div>
             <!-- sugerencias-->
         </div>
