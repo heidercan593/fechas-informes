@@ -21,12 +21,12 @@
   padding-bottom: .5em;
 }
 .rwd-table td:before {
-  content: attr(data-th) ": ";
+  
   font-weight: bold;
   width: 6.5em;
   display: inline-block;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table td:before {
     display: none;
   }
@@ -34,7 +34,7 @@
 .rwd-table th, .rwd-table td {
   text-align: left;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table th, .rwd-table td {
     display: table-cell;
     padding: .25em .5em;
@@ -79,7 +79,7 @@ h3 {
 .rwd-table th, .rwd-table td {
   margin: .5em 1em;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table th, .rwd-table td {
     padding: 1em !important;
   }
@@ -117,7 +117,7 @@ h3 {
   width: 6.5em;
   display: inline-block;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table2 td:before {
     display: none;
   }
@@ -125,7 +125,7 @@ h3 {
 .rwd-table2 th, .rwd-table2 td {
   text-align: left;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table2 th, .rwd-table2 td {
     display: table-cell;
     padding: .25em .5em;
@@ -152,7 +152,7 @@ h3 {
 .rwd-table2 th, .rwd-table2 td {
   margin: .5em 1em;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table2 th, .rwd-table2 td {
     padding: 1em !important;
   }
@@ -189,7 +189,7 @@ h3 {
   width: 6.5em;
   display: inline-block;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table3 td:before {
     display: none;
   }
@@ -197,7 +197,7 @@ h3 {
 .rwd-table3 th, .rwd-table3 td {
   text-align: left;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table3 th, .rwd-table3 td {
     display: table-cell;
     padding: .25em .5em;
@@ -209,8 +209,6 @@ h3 {
     padding-right: 0;
   }
 }
-
-
 
 
 
@@ -226,7 +224,7 @@ h3 {
 .rwd-table3 th, .rwd-table3 td {
   margin: .5em 1em;
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .rwd-table3 th, .rwd-table3 td {
     padding: 1em !important;
   }
@@ -234,4 +232,13 @@ h3 {
 .rwd-table3 th, .rwd-table3 td:before {
   color: #ffffff;
 }
+
+.sombra {
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+	height: auto;  
+}
+
+
 
